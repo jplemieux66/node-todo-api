@@ -100,5 +100,5 @@ describe('GET /todos/:id', () => {
             .get(`/todos/${invalidId}`)
             .expect(404)
             .end(done);
-    })
+    });
 })
